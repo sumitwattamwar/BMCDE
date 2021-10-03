@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47887" started-at="2021-10-03T22:15:22 IST" finished-at="2021-10-03T22:16:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47887" started-at="2021-10-03T22:15:22 IST" finished-at="2021-10-03T22:16:10 IST">
+      <class name="com.Testcases.BMCDE.TC_01_Login_Logout">
+        <test-method status="PASS" signature="ExtentReprts()[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="ExtentReprts" is-config="true" duration-ms="336" started-at="2021-10-03T22:15:22 IST" finished-at="2021-10-03T22:15:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReprts -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="SetUp" is-config="true" duration-ms="3762" started-at="2021-10-03T22:15:23 IST" finished-at="2021-10-03T22:15:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="methodName" is-config="true" duration-ms="17" started-at="2021-10-03T22:15:27 IST" finished-at="2021-10-03T22:15:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Testcases.BMCDE.TC_01_Login_Logout.Login_Test() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="FAIL" signature="Login_Test()[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="Login_Test" duration-ms="25253" started-at="2021-10-03T22:15:27 IST" finished-at="2021-10-03T22:15:52 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (806, 827)
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSW', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9b3a4baf84ec35ce051e30028abdda]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (806, 827)
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSW', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9b3a4baf84ec35ce051e30028abdda
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.BMCDE.windcmds.ActionDriver.click(ActionDriver.java:39)
+at com.utility.BMCDE.CommonFunctions.Signin(CommonFunctions.java:26)
+at com.Testcases.BMCDE.TC_01_Login_Logout.Login_Test(TC_01_Login_Logout.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="methodName" is-config="true" duration-ms="0" started-at="2021-10-03T22:15:52 IST" finished-at="2021-10-03T22:15:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Testcases.BMCDE.TC_01_Login_Logout.Logout_Test() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="Logout_Test()[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="Logout_Test" duration-ms="17167" started-at="2021-10-03T22:15:52 IST" finished-at="2021-10-03T22:16:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Test -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Testcases.BMCDE.TC_01_Login_Logout@7a765367]" name="TearDown" is-config="true" duration-ms="1307" started-at="2021-10-03T22:16:09 IST" finished-at="2021-10-03T22:16:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Testcases.BMCDE.TC_01_Login_Logout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
